@@ -6,12 +6,12 @@ Seven craftable lanterns and an integrated lantern arm for OctoPack, with hand c
 
 ## Download
 
-[Download Lantern 1.2.2](https://github.com/octerockman/OctoPack-Lantern/releases/tag/v1.2.2).
+[Download Lantern 1.2.3 on Thunderstore](https://thunderstore.io/c/valheim/p/Bascinet/OctoPack_addon_Lantern/).
 
 ## Requirements
 
 - Valheim with BepInEx installed.
-- **[Bascinet's OctoPack 1.7.2 or newer](https://github.com/octerockman/OctoPack/releases/latest).**
+- **[Bascinet's OctoPack 1.7.4 or newer](https://github.com/octerockman/OctoPack/releases/latest).**
 
 OctoPack is a required dependency of this build. A compatible mod manager installs it automatically. For manual installs, install OctoPack separately before Lantern.
 
@@ -94,7 +94,7 @@ This ZIP contains the plugin and embedded defaults, without a replacement user c
 
 Install Lantern on clients that should see and use its lanterns or receive its aura effects. Those clients also need OctoPack.
 
-Dedicated servers need **OctoPack 1.7.2 or newer**, using the same core DLL as clients. The Lantern DLL is a client add-on and is not required on the headless server.
+Dedicated servers need **OctoPack 1.7.4 or newer**, using the same core DLL as clients. The Lantern DLL is a client add-on and is not required on the headless server.
 
 Dropped-pack lights and fuel are maintained by an owning, loaded Lantern client. This release does not provide continuous offline or headless lantern fuel simulation.
 
@@ -103,6 +103,10 @@ Dropped-pack lights and fuel are maintained by an owning, loaded Lantern client.
 This package already contains the arm. It does not include the retired belt hook or its position editor. F9 switches hand carrying.
 
 Do not install duplicate Lantern DLLs or the legacy `Octodad.BackpackLantern` plugin. Camping is a separate optional add-on.
+
+## Community and support
+
+Join [OctoDad's Mods on Discord](https://discord.gg/RueyvSfX7R) to ask questions, report bugs, and get news about future mods.
 
 ## Credits
 
