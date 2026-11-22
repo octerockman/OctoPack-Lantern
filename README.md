@@ -4,14 +4,22 @@ Seven craftable lanterns and an integrated lantern arm for OctoPack, with hand c
 
 ![The seven OctoPack lanterns](images/collection.png)
 
+*Renders of actual mod assets and factual text, arranged into promotional images by AI.*
+
 ## Download
 
-[Download Lantern 1.2.3 on Thunderstore](https://thunderstore.io/c/valheim/p/Bascinet/OctoPack_addon_Lantern/).
+[Download Lantern 1.2.6 on GitHub](https://github.com/octerockman/OctoPack-Lantern/releases/tag/v1.2.6) or [Thunderstore](https://thunderstore.io/c/valheim/p/Bascinet/OctoPack_addon_Lantern/).
+
+## Update 1.2.6
+
+- Restores ingredient display cycling for Lantern recipes with more than four required materials.
+- Includes the 1.2.4 and 1.2.5 fixes for camped relight-key behavior and storage inventory icons.
+- Crafting costs and existing configurations are unchanged.
 
 ## Requirements
 
 - Valheim with BepInEx installed.
-- **[Bascinet's OctoPack 1.7.4 or newer](https://github.com/octerockman/OctoPack/releases/latest).**
+- **[Bascinet's OctoPack 1.7.5 or newer](https://github.com/octerockman/OctoPack/releases/latest).**
 
 OctoPack is a required dependency of this build. A compatible mod manager installs it automatically. For manual installs, install OctoPack separately before Lantern.
 
@@ -36,10 +44,6 @@ For manual installation, close Valheim and copy this ZIP's `plugins` folder into
 `BepInEx/plugins/OctoPack_addon_Lantern/OctoPack_addon_Lantern.dll`
 
 Keep one copy of the DLL and retain your existing configuration when updating.
-
-### Upgrading from the separate Lantern Arm add-on
-
-The arm is now integrated into Lantern. Remove the old `OctoPack_addon_LanternArm.dll` from your installed plugins; do not install it alongside this package. Its configuration can be migrated into the integrated arm settings.
 
 ## Default controls
 
@@ -94,7 +98,7 @@ This ZIP contains the plugin and embedded defaults, without a replacement user c
 
 Install Lantern on clients that should see and use its lanterns or receive its aura effects. Those clients also need OctoPack.
 
-Dedicated servers need **OctoPack 1.7.4 or newer**, using the same core DLL as clients. The Lantern DLL is a client add-on and is not required on the headless server.
+Dedicated servers need **OctoPack 1.7.5 or newer**, using the same core DLL as clients. The Lantern DLL is a client add-on and is not required on the headless server.
 
 Dropped-pack lights and fuel are maintained by an owning, loaded Lantern client. This release does not provide continuous offline or headless lantern fuel simulation.
 
@@ -102,17 +106,25 @@ Dropped-pack lights and fuel are maintained by an owning, loaded Lantern client.
 
 This package already contains the arm. It does not include the retired belt hook or its position editor. F9 switches hand carrying.
 
-Do not install duplicate Lantern DLLs or the legacy `Octodad.BackpackLantern` plugin. Camping is a separate optional add-on.
+Camping is a separate optional add-on.
+
+## Development and AI
+
+These mods begin with ideas I want to experience in Valheim. I develop the original concepts, design the systems, and design the assets that give those systems a place in the game. I model and animate the gear, working through details such as where it sits on a character, how it moves, and what happens when it is equipped, carried, dropped, or used.
+
+A lot of the development happens through play. I test builds in Valheim, find bugs and rough edges, change the mechanics or visuals, and test again. Inventory behavior after death, equipment placement, lantern lighting, camp interactions, compatibility, and performance have all taken repeated work to get right. Reports from other players help me find problems I haven’t encountered myself.
+
+AI is simply a better and faster coder than I am, so I use OpenAI Codex for much of the code implementation and troubleshooting. AI tools have also assisted with some model, texture, sound, and effect work, as well as documentation, concept reference images, and promotional graphics. I want to be clear about where that help fits into the process.
+
+I see AI as a tool, not a person. Hidetaka Miyazaki’s work on Dark Souls is a familiar example of how people can value a game’s creative vision without assuming one person wrote every line of code. Code matters, and so do the systems, art, animation, testing, and many revisions that bring a game together.
+
+I’m responsible for what I release. I listen to feedback, address problems as they’re found, and keep developing these mods around how they actually play.
+
+— Studio Bascinet
 
 ## Community and support
 
 Join [OctoDad's Mods on Discord](https://discord.gg/RueyvSfX7R) to ask questions, report bugs, and get news about future mods.
-
-## Support Studio Bascinet
-
-Enjoying the mod? Optional donations help support Studio Bascinet's mod development. Thank you for your support.
-
-[![Donate with PayPal button](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=BUC6767NR59C8)
 
 ## Credits
 
